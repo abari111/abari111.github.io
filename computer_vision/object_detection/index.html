@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://example.com/computer_vision/object_detection/" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Object Detection - My AI journey</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Object Detection";
+        var mkdocs_page_input_path = "computer_vision/object_detection.md";
+        var mkdocs_page_url = "/computer_vision/object_detection/";
+      </script>
+    
+    <script src="../../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/c.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/c++.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> My AI journey
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../cv.md">CV</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Computer Vision</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="" href="../../cv_introduction.md">Introduction</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="./">Object Detection</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#1-quest-ce-que-la-detection-des-objets">1. Qu'est-ce que la detection des objets </a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#2-interets-et-applications">2. Intếrets et Applications</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#3-les-algorithmes-de-la-detection-des-objets">3. Les algorithmes de la detection des objets</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#31-algorithm-performance-evaluation"> 3.1 Algorithm performance evaluation </a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#32-benchmark-datasets-for-object-detection"> 3.2 Benchmark Datasets for object detection</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#4-detection-avec-yolo">4. Detection avec YOLO</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#41-introduction">4.1  Introduction</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#42-concepts-a-comprendre">4.2 concepts à comprendre</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#43-versions-des-yolo">4.3  Versions des YOLO</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#44-exemple-detection-avec-yolo">4.4 Exemple detection avec YOLO</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#5-conclusion">5. Conclusion</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#6-ressources"> 6. Ressources</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../cv_introduction.md">Objects Segmentation</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../cv_introduction.md">Object tracking</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Programming language</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="" href="../../cv_introduction.md">C programming</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../prog_lang/learning_python_practices/">Python programming</a>
+                  </li>
+                  <li class="toctree-l1"><a class="" href="../../cv_introduction.md">C++ programming</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../cv_introduction.md">Deep Learning</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Articles</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../articles/git/">Version control</a>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../cv_introduction.md">Projects</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../cv_introduction.md">Tips</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="../../about.md">About</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">My AI journey</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+          <li>Computer Vision &raquo;</li><li>Object Detection</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <!--
+<style>
+.header_2
+{
+    color : blue;
+}
+
+.header_2
+{
+    color : blue;
+}
+</style>
+-->
+<h1 id="detection-des-objets"><center> Detection des objets</center></h1>
+<h2 id="1-quest-ce-que-la-detection-des-objets"><h2 class='header_2'>1. Qu'est-ce que la detection des objets </h2></h2>
+<ul>
+<li>
+<p>La détection des objets est une tâche de la vision par ordinateur qui consiste à identifier et localiser un ensemble d'objets prédifinis dans une image.</p>
+</li>
+<li>
+<p>The goal of object detection is to determine whether there are any instances of objects from given categories (such as humans, cars, bicycles, dogs or cats) in an image and, if present, to return the spatial location and extent of each object instance.</p>
+</li>
+<li>
+<p>Deep learning techniques has emerged as powerful methods for learning feature representations automatically from data. In particular, theses techniques have provided major improvements in object detection.</p>
+</li>
+<li>
+<p>Object detection can be grouped into one two types : detection of specific instances versus the detection of broad categories. The first type aims to detect instances of a particular object (such as Donald Trump's face, the Eiffel Tower, or a neighbor's dog), essentially a matching problem. The goal of the second type is to detect (usually previously unseen) instances of some predefined object categories (for example humans, cars, bicycles, and dogs).</p>
+</li>
+<li>
+<p>Although thousands of objects occupy the visual world in which we live, currently the research community is primarily interested in the localization of highly structured objects (e.g cars, faces, bicycles and airplanes) and articulaled objects (e.g humans, cows and horses) rather than unstuctured scenes (such as sky, grass, and cloud)</p>
+</li>
+<li>
+<p>The spatial location and extent of an object can be defined coarsely using a bounding box (an axis-aligned rectangle tightly bounding the object), a precise pixelwise segmentation mask, or a closed boundary.</p>
+</li>
+<li></li>
+</ul>
+<h2 id="2-interets-et-applications"><h2 class='header_2'>2. Intếrets et Applications</h2></h2>
+<ul>
+<li>As the cornerstone of image understanding and computer vision, object detection forms the basis for solving complex or high level vision tasks such as segmentation, scene understanding, object tracking, image captioning, event detection, and activity recognition.</li>
+<li>Object detection supports a wide range of applications, including robot vision, consumer electronics, security, autonomous driving, human computer interaction, content based image retrieval, intelligent video surveillance, and augmented reality.</li>
+</ul>
+<h2 id="3-les-algorithmes-de-la-detection-des-objets"><h2 class='header_2'>3. Les algorithmes de la detection des objets</h2></h2>
+<h3 id="31-algorithm-performance-evaluation"><h3> 3.1 Algorithm performance evaluation </h3></h3>
+<ul>
+<li>The ideal of generic object detection is to develop a general purpose algorithm that achieves two competing goals of high quality/accuracy and high efficiency. High quality detection must accurately localize and recognize objects in images or video frames, such that the large variety of object categories in the rea world can be distinguished (i.e., high distinctiveness), and that object instances from the same category, subject to intra-class appearance variations, can be localized and recognized (i.e high robustness). High efficiency requires that  the entire detection task runs in real time with acceptable memory and storage demands.</li>
+</ul>
+<h3 id="32-benchmark-datasets-for-object-detection"><h3> 3.2 Benchmark Datasets for object detection</h3></h3>
+<ul>
+<li>Datasets have played a key role throughout the history of object recognition research, not only as a common ground for measuring and comparing the performance of competing algorithms, but also pushing the field towards increasingly complex and challenging problems.</li>
+<li>There are three steps to creating large-scale annotated datasets: determining the set of target object categories, collecting a diverse set of candidate images to represent the selected categories, collecting a diverse set of candidate images to represent the selected categories on the Internet, and annotating the collected images, typically crowdsourcing strategies.</li>
+<li></li>
+</ul>
+<h2 id="4-detection-avec-yolo"><h2 class='header_2'>4. Detection avec YOLO</h2></h2>
+<h3 id="41-introduction"><h3 class='header_3'>4.1  Introduction</h3></h3>
+<h3 id="42-concepts-a-comprendre"><h3 class='header_3'>4.2 concepts à comprendre</h3></h3>
+<h3 id="43-versions-des-yolo"><h3 class='header_3'>4.3  Versions des YOLO</h3></h3>
+<h3 id="44-exemple-detection-avec-yolo"><h3 class='header_3'>4.4 Exemple detection avec YOLO</h3></h3>
+<h2 id="5-conclusion"><h2  class='header_2'>5. Conclusion</h2></h2>
+<h2 id="6-ressources"><h2 class='header_2'> 6. Ressources</h2></h2>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../.." class="btn btn-neutral float-left" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../prog_lang/learning_python_practices/" class="btn btn-neutral float-right" title="Python programming">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../.." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../../prog_lang/learning_python_practices/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme_extra.js" defer></script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
