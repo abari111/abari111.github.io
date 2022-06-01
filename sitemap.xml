@@ -2,42 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/about/</loc>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/articles/git/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/computer_vision/cv/</loc>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/computer_vision/fr_object_detection/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/computer_vision/object_detection/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/prog_lang/c_prog/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/prog_lang/cpp_lang/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/prog_lang/learning_python_practices/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/prog_lang/python/</loc>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/prog_lang/python_lang/</loc>
-         <lastmod>2022-05-25</lastmod>
+         <lastmod>2022-06-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
