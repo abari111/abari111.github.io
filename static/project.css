@@ -1,4 +1,31 @@
-
+.int_hr
+{
+  width:100%;
+  text-align:center;
+  border:2px solid black;
+  padding-left: 20px;
+  /* margin: auto;  */
+  /* height: 20px; */
+  color:rgb(79, 36, 36) 
+}
+.easy_projects a
+{
+  text-decoration: None;
+}
+.easy_project a:hover
+{
+  text-decoration: None;
+  color: rgb(79, 36, 36);
+}
+.iproject a
+{
+  text-decoration: None;
+}
+.iprojects a:hover
+{
+  text-decoration: None;
+  color: rgb(79, 36, 36);
+}
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .project_title
 {
