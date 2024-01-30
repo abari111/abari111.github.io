@@ -2,7 +2,7 @@
 {
   width:100%;
   text-align:center;
-  border:2px solid black;
+  border:1px solid black;
   padding-left: 20px;
   /* margin: auto;  */
   /* height: 20px; */
@@ -58,9 +58,10 @@
 {
     width:40%;
     text-align:center;
+    border:2px solid rgb(79, 36, 36);
     /* margin-left: 10%; */
     margin: auto;
-    height: 10px;
+    /* height: 10px; */
     color:rgb(79, 36, 36) 
 }
 .nav_hr
