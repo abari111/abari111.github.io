@@ -19,11 +19,14 @@
 
 <cite>Martin Luther King. Jr. </cite> </blockquote> 
 
+----
+
 ## About Me
 
 I am Abari DODO, a junior engineer specialized in embedded systems and artificial intelligence. I hold an Engineering degree in embedded systems from the National School of Applied Sciences of Fez, Morocco, and a Master's degree in Artificial Intelligence from Université Claude Bernard Lyon 1 in France. My focus lies in the intersection of embedded systems and artificial intelligence, with a particular interest in designing AI models that can be executed at the edge (on devices). I am also fascinated by the broader applications of AI. Through my internship experiences, I have gained valuable insights into AI research and programming embedded systems. Here are some of the domains that capture my interest.
 
 - Generative AI, Embedded AI, Computer vision
+
 ---------
 
 ## Education
@@ -37,7 +40,7 @@ I am Abari DODO, a junior engineer specialized in embedded systems and artificia
 ## Projects
 
 <!-- Maranta project -->
----
+
 <h4 class='project'> <a href="https://github.com/abari111/maranta" style="background-color: #4CAF50; color: white; padding: 5px 5px; text-align: center; text-decoration: none; display: inline-block; border-radius: 8px; margin: 0px 0px; cursor: pointer;">
 Maranta</a></h4>
 
@@ -109,6 +112,7 @@ Having an MBA from a renowned institute opens doors, allowing us to take a signi
 
 </div>
 
+---
 ## My Pitch
 <!-- - I build product not models
 - I value trust
@@ -129,6 +133,7 @@ Critical thinking is essential to me; I don't just accept things at face value. 
 - I am clear about my goals but also realistic about their feasibility.
 <!-- - If something is not physically impossible, I believe in exploring its potential to make it possible. -->
 
+----
 ## More 
 <!-- - Try to think about applications of AI that can help to reach sustainable development objectives
 - How AI can be used to make education enjoyable and more impactful
