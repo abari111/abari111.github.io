@@ -1,4 +1,5 @@
 title: Dodo Abari
-logo: assets/img/abari.jpeg
-show_downloads: true
+# logo: assets/img/abari.png
+# show_downloads: true
+description: AI engineer
 theme: jekyll-theme-minimal
