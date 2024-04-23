@@ -1,0 +1,35 @@
+
+
+.art_menu {
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.art_menu span {
+    border: 1px solid;
+    border-radius: 2px;
+    width: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.art_menu a  {
+    text-decoration: none;
+    width: 20px;
+    color:#845434;
+}
+.side_stick{
+    position: fixed;
+    /* top: 0; */
+    position: -webkit-sticky;
+}
+
+.articles a {
+    text-decoration: none;
+    color: #845434;
+}
+
+.articles a:hover{
+    text-decoration: none;
+    color: antiquewhite;
+    background-color:rgb(80, 41, 28);
+}

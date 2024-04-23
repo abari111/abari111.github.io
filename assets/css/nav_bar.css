@@ -1,0 +1,22 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    color:#3e1b1bb5;
+  }
+  .nav-item{
+    color: white;
+  }
+.nav-link{
+    color:antiquewhite;
+}
+
+.active {
+    /* background-color:#3e1b1bb5; */
+    background-color:rgb(58, 37, 37);
+    color:antiquewhite;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color:antiquewhite;
+}

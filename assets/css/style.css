@@ -1,0 +1,115 @@
+.about {
+  margin-top: 10px;
+}
+
+.side_hr {
+  width:20%;
+  color:rgb(79, 36, 36);
+  margin-left: 50px;
+}
+.content{
+  padding-top: 20px;
+}
+.description{
+    font-size: medium;
+    /* font-weight: bold; */
+    color: rgb(80, 41, 28);
+    margin: 20px;
+}
+img {
+    width: 70%;
+    height: 70%;
+  }
+
+.stick {
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
+  background-color: #3e1b1bb5;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.profile {
+    /* padding:20px; */
+    padding-top: 20px;
+    margin-left:20px;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+body { 
+    color: #666;
+    font-weight: 100;
+    /* padding: 30px; */
+    /* padding: 10px; */
+ }
+
+hr
+{
+  /* border-top:1px solid black;
+  border-bottom:2px solid black;
+  width:20%;
+  text-align:left;
+  margin:auto; 
+  height: 5px; */
+  color:rgb(79, 36, 36)
+}
+
+/* Social network */
+.social { border-top: 1px solid #e8e8e8; margin-top: 50px; padding-top: 20px; }
+
+.social-icons{
+	padding:20px;
+	/* background-color:#00506b; */
+  /* text-align: center; */
+}
+.social-icons a{
+	color:#3e1b1bb5;
+  line-height:30px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
+
+data {
+color: rgb(241, 218, 178);
+color: rgb(226, 201, 161);
+color: rgb(240, 217, 177);
+color: rgb(239, 214, 172);
+color: rgb(236, 213, 173)}
+
+.section h3{
+  font-size: 20px;
+}
