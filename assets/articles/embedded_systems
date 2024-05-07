@@ -1,0 +1,63 @@
+## Resources to learn embedded systems
+### Computer architecture
+- Ben Eater
+- Onur Mutlu
+- Computer systems Book
+### Embedded Artificial intelligence
+- TinyML
+- Brazil Github
+- Harvard page
+### Embedded Linux
+### IoT
+### Embedded programming
+- Kernighan Book
+
+## Embedded systems: Things to keep in mind
+- Embedded programming paradigms
+- Embedded hardware
+- Finite state machine
+- Examples of embedded systems
+- TinyDico
+
+## Microcontrollers key concepts
+- What is Microcontrollers?
+- Without Microcontrollers?
+- Microcontrollers components
+- Programming Microcontrollers
+- Examples of Microcontrollers
+
+## Embedded AI
+- AI
+- Embedded AI
+- Tools & platforms
+
+## Embedded OS
+- Bare embedded systems
+- OS in embedded systems
+- OS concepts
+- Types of OS
+- Embedded OS Examples
+- Building an embedded OS from scratch
+
+## RTOS
+- What is RTOS
+- RTOS components
+- Examples RTOS
+- Building RTOS from scratch
+## C programming in nutshell
+- Generalities
+- variables and Data types
+- Operators
+- Control flow
+- Data structures (Array, union, struct, enum, file)
+- Functions and modularity
+- Scopes and visibility of variables
+- Pointers
+- Memory management
+- Preprocessor directives
+- Error, exceptions handling
+- C dev Tools
+- Embedded C
+- Best practice in C
+- Key words
+## C++ programming in nutshell
