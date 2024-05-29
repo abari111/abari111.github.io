@@ -6,9 +6,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/styles.css">
-    <link rel="stylesheet" type="text/css" href="assets/contact.css">
-    <link rel="stylesheet" type="text/css" href="assets/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/contact.css">
+    <link rel="stylesheet" type="text/css" href="../assets/articles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/navbar.css">
     <title>abari.ai</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
                 <div class="stick">
                 <div class="navbar ">
                 <nav class="nav flex-column">
-                    <a class="nav-link active" href="index.html">Home</a>
-                    <a class="nav-link" href="blog.html">Writings</a>
-                    <a class="nav-link" href="more.html">More</a>
+                    <a class="nav-link " href="../index.html">Home</a>
+                    <a class="nav-link active" href="../blog.html">Writings</a>
+                    <a class="nav-link" href="../more.html">More</a>
                     <a class="nav-link disabled" href="#">Books</a>
                   </nav>
                 </div>
@@ -45,35 +46,42 @@
             </div>
 <!-- ------------------------------------------MAIN RESOURCES-------------------------------------------- -->
             <div class="col main">
-                <blockquote cite="http://example.com">
-                    “The ultimate measure of a man is
-                    not where he stands in moments
-                    of comfort and convenience, but
-                    where he stands at times of
-                    challenges and controversy.
-                    ” - Dr. Martin Luther King, Jr.
-                  </blockquote>
-                <p class="content about">
-                        I am Abari DODO, a junior engineer specialized in embedded systems and artificial intelligence. 
-                        I hold an Engineering degree in embedded systems from the National School of Applied Sciences of Fez, 
-                        Morocco, and a Master's degree in Artificial Intelligence from Université Claude Bernard Lyon 1 in France.
-                         My focus lies in the intersection of embedded systems and artificial intelligence, with a particular interest
-                          in designing AI models that can be executed at the edge (on devices). Through my internship experiences, I have gained valuable insights into AI research and 
-                          programming embedded systems. Here are some of the domains that I interest in:
-                          <ul class="domain_insterest">
-                            <li>Edge AI</li>
-                            <li>Generative AI</li>
-                            <li>Cognitive architecture</li>
-                            <li>Computer vision</li>
-                            <li>IoT, embedded systems</li>
-                          </ul>
-
-                </p>
+                <span class="tags">
+                    <a href="cv.html" >vision</a>
+                    <a href="life_tips.html">Life</a>
+                    <a href="ai.html" >AI</a>
+                    <a href="#" class="active_tag">IoT</a>
+                    <a href="soft.html">Soft</a>
+                    <a href="tools.html">Tools</a>
+                </span>
                 
-                  
+                <div id="postsContainer">
+                    <article>
+                        <header>
+                            <!-- <h1>Artificial Intelligence</h1> -->
+                            <p class="summary"></p>
+                        </header>
+                        <section class="articles">
+                            <ul class="custom-counters">
+                                <li><a href="#">Resources to learn embedded systems</a></li>
+                                <li><a href="#">Microcontrollers key concepts</a></li>
+                                <li><a href="#">TinyML</a></li>
+                                <li><a href="#">Embedded OS</a></li>
+                                <li><a href="#">RTOS</a></li>
+                                <li><a href="#">Embedded Programming: Things to keep in mind</a></li>
+                                <li><a href="#">C programming</a></li>
+                                <li><a href="#">C++ in a nutshell</a></li>
+                            </ul>
+                        </section>
+                    </article>
+
+                </div>
+                
             </div>
 
         </div>
+
+        
 
     </div>
 </body>

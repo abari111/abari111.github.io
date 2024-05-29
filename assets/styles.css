@@ -1,0 +1,117 @@
+/* body, html {
+    overflow-x: hidden;
+    margin: 0;
+} */
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    position: fixed;
+    width: 70%;
+    height: 70%;
+    margin-left: 8%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    background-color: rgb(221, 234, 242);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
+                0 6px 6px rgba(0, 0, 0, 0.2); 
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
+                0 6px 6px rgba(0, 0, 0, 0.2); /* 3D effect */
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    transition: transform 0.3s;
+    
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+}
+
+.side{
+    padding-left: 10px;
+    background-color: #fcfcfcb5;
+
+}
+
+.main{
+    padding: 20px;
+}
+
+.content{
+    text-align: justify;
+}
+
+
+.stick {
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+  }
+
+
+
+/* ------------------------------------- Tags --------- */
+
+.tags a {
+    padding: 2px 5px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #ddd;
+    border-radius: 10px;
+    color: #000; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    
+}
+/* .tags a:hover{
+    background-color: beige;
+} */
+.tags a:hover{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
+
+  .tags .active_tag{
+    background-color: aqua;
+  }
+/* ------------------------------------- Other --------- */
+
+.about{
+    padding: 10px;
+    font-size: small;
+}
+
+blockquote{
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    color:rgb(138, 66, 66);
+}
+
+ul.custom-counters {
+    list-style: none; /* Removes default bullets */
+  }
+  /* ul.custom-counters li {
+    counter-increment: custom-counter; 
+  } */
+  ul.custom-counters li::before {
+    content:  "➡️ "; /* Display the counter */
+    font-weight: bold; /* Make the counter bold */
+  }
+
+.domain_insterest li{
+    font-size: small;
+
+}
