@@ -1,1 +1,1 @@
-[Site perso](https://github.com/abari111/Dr.eye.git)
+[Site perso](https://abari111.github.io/)
