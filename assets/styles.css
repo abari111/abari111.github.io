@@ -15,7 +15,9 @@ body, html {
     margin-left: 8%;
     margin-top:5%;
     margin-bottom: 5%;
-    background-color: rgb(221, 234, 242);
+    /* background-color: rgb(221, 234, 242); */
+    background-color: #f0f0f0;
+    /* background-color: #666; */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
                 0 6px 6px rgba(0, 0, 0, 0.2); 
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 
@@ -115,3 +117,9 @@ ul.custom-counters {
     font-size: small;
 
 }
+/* -- */
+
+
+  .profile { float: right !important; margin-left: 15px; }
+.profile img { box-shadow: 0 0 5px #828282; width: 100%; }
+.one { width: 33.33%; }   
