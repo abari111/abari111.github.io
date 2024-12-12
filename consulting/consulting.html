@@ -1,72 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Consulting Services</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+
+        main {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.8rem;
+            color: #495057;
+        }
+
+        #activities p, #books p, #book-call p, #contact p {
+            margin: 0.5rem 0 0;
+        }
+
+        .book-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .book-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-item h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .book-item p {
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        .book-item button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .book-item button:hover {
+            background-color: #0056b3;
+        }
+
+        #book-call button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        #book-call button:hover {
+            background-color: #218838;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        #contact input, #contact textarea {
+            padding: 0.8rem;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        #contact button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.8rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        #contact button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #343a40;
+            color: white;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .book-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <h1>AI Consulting Services</h1>
-      <p>Unlock the Power of Artificial Intelligence for Your Business</p>
-      <a href="#contact" class="btn">Get Started</a>
-    </div>
-  </header>
+    <header>
+        <h1>Consulting With Passion</h1>
+        <p>Unlock the potential of AI and embedded systems</p>
+    </header>
 
-  <main>
-    <section id="services">
-      <div class="container">
-        <h2>Our Services</h2>
-        <div class="service">
-          <h3>AI Research</h3>
-          <p>Benchmark AI applications tailored to your domain.</p>
-        </div>
-        <div class="service">
-          <h3>Risk Analysis of Not Using AI</h3>
-          <p>Evaluate the risks of not adopting AI in your industry.</p>
-        </div>
-        <div class="service">
-          <h3>AI Proof of Concept (POC)</h3>
-          <p>Create a tailored AI solution for your business needs.</p>
-        </div>
-        <div class="service">
-          <h3>AI Assistance</h3>
-          <p>Guide your team in using AI tools like ChatGPT, Claude, and others.</p>
-        </div>
-      </div>
-    </section>
+    <main>
+        <!-- Activities Section -->
+        <section id="activities">
+            <h2>Services</h2>
+            <ul>
+                <li>Conduct market studies and benchmarks to identify the most suitable AI applications for diverse business domains, enabling clients to make informed technology adoption decisions.</li>
+                <li>Perform risk and opportunity analyses, evaluating the impact of not integrating AI into business processes, and providing strategic recommendations to mitigate risks and capitalize on opportunities.</li>
+                <li>Collaborate with businesses to design and implement Proof of Concept (PoC) projects, developing tailored AI solutions aligned with their objectives and operational goals.</li>
+              </ul>
+        </section>
 
-    <section id="about">
-      <div class="container">
-        <h2>Why Choose Us?</h2>
-        <ul>
-          <li>Tailored Solutions: Customized to align with your business objectives.</li>
-          <li>Expert Guidance: Leverage deep expertise in AI tools and trends.</li>
-          <li>End-to-End Support: Comprehensive support from research to execution.</li>
-        </ul>
-      </div>
-    </section>
+        <!-- Books Section -->
+        <section id="books">
+            <h2>My Books (comming soon)</h2>
+            <div class="book-list">
+                <div class="book-item">
+                    <h3>Embedded Systems: All-in-One</h3>
+                    <p>A comprehensive guide compiled during my five-year degree in embedded systems. This project-oriented book explains each concept with accompanying resources and practical projects.</p>
+                    <p>Price: $49.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-item">
+                    <h3>Artificial Intelligence: A Boon for Africa</h3>
+                    <p>An insightful exploration of how AI can be a transformative tool for Africa's development, tackling key challenges and opportunities.</p>
+                    <p>Price: $20.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-item">
+                    <h3>Prompt Engineering</h3>
+                    <p>Master the art of effectively using AI tools like ChatGPT, Claude, Perplexity, and more with this practical guide.</p>
+                    <p>Price: $9.99</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="book-item">
+                    <h3>Learn for Free</h3>
+                    <p>Discover free online resources and strategies to learn anything you're passionate about. Donate to a charity of your choice and gain access to this mini-book.</p>
+                    <p>Price: Donation-based</p>
+                    <button>Get Access</button>
+                </div>
+                <div class="book-item">
+                    <h3>Stress-Free Living</h3>
+                    <p>A comforting guide to help you manage stress and find peace, reminding you that everything will be alright.</p>
+                    <p>Price: $9.99</p>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-      <div class="container">
-        <h2>Contact Us</h2>
-        <p>Let’s discuss how we can help you unlock the potential of AI for your business.</p>
-        <form action="#" method="post">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-          <button type="submit" class="btn">Send Message</button>
-        </form>
-      </div>
-    </section>
-  </main>
+        <!-- Book a Call Section -->
+        <section id="book-call">
+            <h2>Book a Call with Me</h2>
+            <p>Let's discuss how I can assist with your projects and challenges. Schedule a one-on-one consultation to explore tailored solutions.</p>
+            <button>Book a Call</button>
+        </section>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2024 AI Consulting Services. All rights reserved.</p>
-    </div>
-  </footer>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or need further information, feel free to reach out.</p>
+            <form action="#" method="post">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Consulting Services. All rights reserved.</p>
+    </footer>
 </body>
 </html>
