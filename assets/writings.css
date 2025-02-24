@@ -1,0 +1,14 @@
+.art a{
+    text-decoration: none;
+	color:blueviolet
+}
+
+.art a:visited{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.art a:hover{
+    color: white;
+    text-decoration: none;
+}
