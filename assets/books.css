@@ -1,18 +1,18 @@
 .bk a{
     text-decoration: none;
-    color: blueviolet;
+    color: rgb(20, 0, 38);
 }
 
 .bk a:visited{
-    color: blueviolet;
+    color: rgb(36, 35, 38);
     text-decoration: none;
 }
 
 .bk a:hover{
-    color: white;
+    color: #c97f5a;
     text-decoration: none;
 }
 
-.bk-list{
+/* .bk-list{
     list-style-type: 📖;
-}
+} */

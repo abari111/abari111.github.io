@@ -1,8 +1,37 @@
-body{
-    background-color: black;
-    color: azure;
+body {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(101, 80, 27);
+    font-size: 1rem;         /* 16px */
+    line-height: 1.6;
 }
-#content{
+
+#content {
     margin: auto;
     width: 50%;
+}
+
+/* Medium screens (tablets, landscape phones) */
+@media (max-width: 1024px) {
+    #content {
+        width: 70%;
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 768px) {
+    #content {
+        width: 90%;
+    }
+}
+
+/* Extra small screens (very small phones) */
+@media (max-width: 480px) {
+    body {
+        margin-top: 30px;
+    }
+
+    #content {
+        width: 95%;
+    }
 }
