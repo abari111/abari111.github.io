@@ -13,16 +13,21 @@ nav ul li, a{
 }
 
 nav a:hover{
-    color:rgba(97, 96, 65, 0.902)
+    /* color:rgba(97, 96, 65, 0.902) */
+    color: #c97f5a;
 }
 nav a:visited{
     text-decoration: none;
 }
 .active{
-    color:rgb(255, 255, 255);
-    background-color: #c97f5a;         /* white box */
+    color:rgb(0, 0, 0);
+    /* background-color: #c97f5a;         */
     border-radius: 8px;                /* rounded corners */
     display: inline-block;             /* shrink box to fit content */
     font-size: 1.1rem;
     font-family: sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #c97f5a;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
 }
